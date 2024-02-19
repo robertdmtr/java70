@@ -20,8 +20,10 @@ public class Calculator {
                 return num1 - num2;
             case '*':
                 return num1 * num2;
+            case '^':
+                return Math.pow(num1, num2);
             case ':':
-                return  Math.round(num1 / num2);
+                return Math.round(num1 / num2);
             case '/':
                 if (num2 != 0) {
                     return num1 / num2;
